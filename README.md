@@ -1,16 +1,17 @@
 Workout Tracker – Desktop App (Python, Tkinter, Matplotlib)
-A modern, easy-to-use desktop workout tracker built with Python, ttkbootstrap, SQLite, and Matplotlib.
-Designed for personal use and as a polished portfolio project showcasing:
+This project is designed to act as a modern, easy-to-use desktop workout tracker built with Python, ttkbootstrap, SQLite, and Matplotlib.
+It's designed for personal use and as a  portfolio project showcasing:
 •	GUI development
 •	Data modelling
 •	Analytics with pandas
 •	Embedded Matplotlib charts
 •	Clean software architecture
 •	Exportable fitness data
-This app helps you log strength workouts, track cardio minutes, and visualise your progress in a simple, modern interface.
+
+
 ________________________________________
-✨ Features
-🏋️ Log Strength Workouts
+Features
+Log Strength Workouts
 •	Add exercises with:
 o	Sets
 o	Reps
@@ -19,11 +20,11 @@ o	RPE
 •	Add optional notes
 •	Automatically compute session totals (e.g., volume = reps × weight)
 
-❤️ Track Weekly Cardio Goal
+Track Weekly Cardio Goal
 •	Simple entry for cardio minutes per workout
 •	Weekly goal: 150 minutes (visual indicator included)
 
-📅 Workout History
+Workout History
 •	View all workouts in a sortable table
 •	See:
 o	Date
@@ -34,7 +35,7 @@ o	Cardio minutes
 •	Filter by date range or workout type
 •	View full details of each workout
 
-📈 Progress & Analytics
+Progress & Analytics
 Powered by Matplotlib + pandas:
 •	Lift progression graphs
 o	Track performance for any exercise
@@ -47,18 +48,19 @@ o	Great for monitoring training load over time
 o	Shows weekly minutes achieved out of 150
 o	Highlights when goal is reached
 
-📤 Export Data
+Export Data
 Export your fitness data into CSV for use in:
 •	Excel
 •	Google Sheets
 •	Python notebooks
 •	BI dashboards
+
 Exports include:
 •	workouts.csv
 •	sets.csv
 •	cardio_sessions.csv
 ________________________________________
-🛠 Tech Stack
+Tech Stack
 •	Python 3.10+
 •	Tkinter + ttkbootstrap (modern UI styling)
 •	SQLite for local persistent storage
@@ -84,7 +86,7 @@ workout_tracker/
 └── README.md
 
 
-🧩 Future Enhancements (Roadmap)
+Future Enhancements (Roadmap)
 •	Editable exercise library (add/remove custom exercises)
 •	Tags for workouts (e.g., “Upper A”, “Cardio”, “Hypertrophy”)
 •	PR tracking (auto-detect new personal bests)
